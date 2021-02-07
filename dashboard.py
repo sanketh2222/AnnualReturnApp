@@ -2,7 +2,7 @@ import requests
 import argparse
 import json
 
-
+ 
 # curl -X POST   http://localhost:8081/portfolio/bottom-performer/2019-10-01/2019-10-22   -H 'Content-Type: application/json'   -d '{
 #    "id": 1,
 #    "stocks": ["GOOGL", "AAPL", "COST"]

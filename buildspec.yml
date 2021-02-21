@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo Entered the build phase...
+      - ./gradlew build
+  post_build:
+    commands:
+      - echo Build completed successfully
+artifacts:
+  files:
+    - build/libs/annual-return-app-0.0.1-SNAPSHOT.jar
+  discard-paths: yes

@@ -4,6 +4,7 @@ phases:
   build:
     commands:
       - echo Entered the build phase...
+      - chmod 777 gradlew
       - ./gradlew build
   post_build:
     commands:
